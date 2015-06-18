@@ -1,10 +1,9 @@
 #!/usr/bin/env python
 
-"""
-code that tests the break_me.py functions
-"""
 
-# import pytest  # used for the exception testing
+# code that tests the break_me.py functions
+
+import pytest  # used for the exception testing
 
 
 import break_me
