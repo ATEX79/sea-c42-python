@@ -1,4 +1,4 @@
-"""print "Let's experiment with the Fibonacci and Lucas Numbers Series."
+print "Let's experiment with the Fibonacci and Lucas Numbers Series."
 
 # Fibonacci series
 
@@ -35,25 +35,24 @@ def lucas(m):
     elif (m > 1):
         return(lucas(m - 1) + lucas(m - 2))
 
-# should I call this function now or later?
-print lucas(m)"""
+# should I call this function now or in part 3 or "finally"?
+print lucas(m)
 
-# part 3 "sum series"
+"""
+# part 3 "sum series" - this is where I'm not sure how to proceed. ignore the code.
+# it's a rough draft, incomplete, and incorrect.
 
-"""print "And finally you can choose Lucas or Fibonacci by following these instructions."
-print "If you would like to run the Fibonacci Series, type just ONE number, and it may be any number you like."
-print "If you sould like to run the Lucas Series, type any number followed by 2 and 1.  For example, 6 2 1."
 
-# r = raw_input("Please type a number or numbers as described above. > ")
-# s = int(r)"""
+r = raw_input("Please type a number. > ")
+s = int(r)
 
 
 def sum_series(s, b=0, c=1):
-       if (i == 0):
+       if (b == 0):
         return(0)
     elif (i == 1):
         return(1)
     elif (i > 1):
         return(fibonacci(i - 1) + fibonacci(i - 2))
 
-def sum_series (m, )
+def sum_series (m, )"""
