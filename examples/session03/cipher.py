@@ -10,14 +10,14 @@ cipher_list = list(alphabet_list)
 # This should be a list in order
 print(cipher_list)
 
-message_text = "what has dates and sundays but cannot be eaten"
+message_text = "hello shh its a secret"
 
 random.shuffle(cipher_list)
 
 # This should be random now
 print(cipher_list)
 
-cipher_text = ""
+cipher_text = "hello shh its a secret"
 
 for x in message_text:
     index = alphabet_list.index(x)
